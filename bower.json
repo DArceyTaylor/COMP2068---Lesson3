@@ -1,0 +1,19 @@
+{
+  "name": "lesson3",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "D'Arcey Taylor <darceytaylor05@gmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "Scripts/lib",
+    "test",
+    "tests"
+  ]
+}
