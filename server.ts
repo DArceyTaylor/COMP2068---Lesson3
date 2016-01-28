@@ -1,4 +1,26 @@
 /// <reference path="_reference.ts"/>
+
+import express = require('express');
+
+var app:express.Express = express();
+var port:number = process.env.port || 3000;
+
+//main route
+app.get('/', function (req:express.Request, res:express.Response, next:any) {
+  res.send('Hello Express!');
+});
+
+app.get('/info', function(req:express.Request, res:express.Response){
+    res.send('Your custom infor page goes here');
+});
+
+app.listen(port, function(){
+    console.log("App Server Started...on port: " + port);
+});
+
+
+
+/*
 import http = require('http');
 
 var port:number = process.env.port || 3000;
@@ -12,3 +34,4 @@ var server = http.createServer(
 server.listen(port, function(){
     console.log("Server Started.... Listening on port: " + port);
 });
+*/
