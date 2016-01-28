@@ -1,2 +1,2 @@
-/// <reference path="tsd.d.ts"/> 
+/// <reference path="typings/tsd.d.ts"/> 
 //# sourceMappingURL=_reference.js.map
